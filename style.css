@@ -152,20 +152,29 @@ main{
     color: #757575;
 }
 
+.main--tables--container{
+    margin: 15px 20px auto;
+    align-items: center;
+    display: flex;
+    height: 400px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+}
+
 .main--currency-table{
+    position: relative;
     width: 70%;
     min-width: 235px;
     max-width: 500px;
     height: 360px;
-    margin: 0 auto;
+    margin: 0 20px;
     font-family: "Inter", sans-serif;
 }
 
 .main--currency-table .currency--table--title{
-    margin-bottom: 15px;
     font-size: 1.8rem;
     font-weight: 700;
-    text-align: left;
+    text-align: center;
     line-height: 2.3rem;
     color: var(--bitcoin-orange);
 }
@@ -250,19 +259,20 @@ main{
 }
 
 .main--commissions--table{
+    position: relative;
     width: 70%;
     min-width: 235px;
     max-width: 500px;
     height: 360px;
-    margin: 0 auto;
+    margin: 0 30px;
     font-family: "Inter", sans-serif;
 }
 
 .main--commissions--table .main--commissions--title{
     font-size: 1.8rem;
     font-weight: 700;
-    text-align: left;
-    margin: 15px 0;
+    text-align: center;
+    /* margin: 15px 0; */
     line-height: 2.3rem;
     color: var(--secondary-blue);
 }
@@ -476,11 +486,12 @@ main{
 
 .plans-container--card{
     position: relative;
+    scroll-snap-align: center;
     width: 60%;
-    min-width: 200px;
+    min-width: 190px;
     max-width: 300px;
     height: 250px;
-    margin: 50px auto 0;
+    margin: 50px 10px 0;
     padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 15px;
@@ -512,8 +523,6 @@ main{
 .plans-container--card .ulimited{
     background-color: var(--gray);
 }
-
-
 
 .plan-card--title{
     padding-top: 30px;
@@ -587,9 +596,46 @@ main{
     color: var(--gray);
 }
 
-
-
 .unlimited--card .plan-card--prize span{
     color: var(--off-white);
     left: calc(50% - 55px);
+}
+
+.plans-container--slider{
+    margin-right: 15px;
+    display: flex;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: var(--bitcoin-orange);
+}
+
+footer section{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    list-style: none;
+}
+
+footer li{
+    margin: 10px 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--just-white);
 }
