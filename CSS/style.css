@@ -101,7 +101,7 @@ header img{
     width: 13px;
     height: 8px;
     margin-left: 10px;
-    background-image: url("./assets/icons/downArrow.svg");
+    background-image: url("../assets/icons/downArrow.svg");
 }
 
 main{
@@ -130,7 +130,7 @@ main{
     height: 200px;
     margin: 0 auto;
     margin-bottom: 50px;
-    background-image: url("./assets/images/bitcoin.svg");
+    background-image: url("../assets/images/bitcoin.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -226,7 +226,7 @@ main{
     width: 15px;
     height: 15px;
     margin-left: 10px;
-    background-image: url(./assets/icons/trending-down\ 1.svg);
+    background-image: url(../assets/icons/trending-down\ 1.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -236,7 +236,7 @@ main{
     height: 15px;
     width: 15px;
     margin-left: 10px;
-    background-image: url(./assets/icons/trending-up\ 1.svg);
+    background-image: url(../assets/icons/trending-up\ 1.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -349,7 +349,7 @@ main{
     height: 30px;
     top: -15px;
     left: calc(50% - 15px);
-    background-image: url(./assets/icons/Papa\ logo.svg);
+    background-image: url(../assets/icons/Papa\ logo.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -403,19 +403,19 @@ main{
     background-repeat: no-repeat;
 }
 .product-detail--card .clock{
-    background-image: url(./assets/icons/clock\ 1.svg);
+    background-image: url(../assets/icons/clock\ 1.svg);
 }
 
 .product-detail--card .eye{
-    background-image: url(./assets/icons/eye\ 1.svg);
+    background-image: url(../assets/icons/eye\ 1.svg);
 }
 
 .product-detail--card .dollar{
-    background-image: url(./assets/icons/dollar-sign\ 1.svg);
+    background-image: url(../assets/icons/dollar-sign\ 1.svg);
 }
 
 .product-detail--card .check{
-    background-image: url(./assets/icons/check-circle\ 1.svg);
+    background-image: url(../assets/icons/check-circle\ 1.svg);
 }
 
 .product--card-title{
@@ -438,7 +438,7 @@ main{
     width: 100%;
     min-width: 320px;
     height: 50vh;
-    background-image: url(./assets/images/bitcoinbaby\ 1.png);
+    background-image: url(../assets/images/bitcoinbaby\ 1.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -573,7 +573,7 @@ main{
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url(./assets/icons/arrow-right\ 1.svg);
+    background-image: url(../assets/icons/arrow-right\ 1.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
